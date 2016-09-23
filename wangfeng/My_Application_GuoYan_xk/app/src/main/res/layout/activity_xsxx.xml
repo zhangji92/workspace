@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gaoshen.wangfeng.my_application_guoyan.Xsxx">
+
+    <RelativeLayout
+        android:id="@+id/biaotou_xs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lang"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imgxxkc_xs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/wang1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgxxkc_xs"
+            android:layout_marginTop="10dp"
+            android:gravity="center|bottom"
+            android:text="@string/xs"
+            android:textColor="@color/bai"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/jian_xs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickText_xs"
+            android:padding="10dp"
+            android:src="@drawable/jian" />
+
+        <ImageView
+            android:id="@+id/caidan_xs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:src="@drawable/caidan" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:id="@+id/xingming_xs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xm"
+            android:textColor="@color/lang"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/xingming_xs"
+            android:background="@drawable/biankuan"
+            android:paddingLeft="5dp" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/button_xs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:onClick="clickText_xs"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/tijiao"
+        android:textColor="@color/bai"
+        android:textSize="25sp"
+        android:background="@drawable/dianji"
+        />
+
+
+</LinearLayout>

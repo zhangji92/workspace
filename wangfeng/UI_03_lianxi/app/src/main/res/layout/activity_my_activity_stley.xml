@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <EditText
+        android:id="@+id/editww"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:background="@drawable/img_yuanjiao"
+        android:editable="false"
+        android:gravity="right|bottom"
+        />
+
+    <TextView
+        android:id="@+id/textWf"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <!--<Button-->
+        <!--android:id="@+id/but"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:drawableLeft="@drawable/wang3"-->
+        <!--android:text="ggggggg"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="a n n i u"-->
+        <!--android:textSize="40dp"-->
+        <!--style="?android:attr/borderlessButtonStyle"-->
+        <!--android:background="@drawable/button_custom"-->
+        <!--/>-->
+</LinearLayout>

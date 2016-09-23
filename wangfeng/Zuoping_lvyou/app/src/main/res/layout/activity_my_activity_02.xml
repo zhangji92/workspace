@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/shouye"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp"
+    app:popupTheme="@style/W_FTheme">
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="300dp"
+        android:layout_height="105dp"
+        android:background="@drawable/w1"
+        android:onClick="skippage"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="110dp"
+        android:layout_height="95dp"
+        android:layout_alignLeft="@id/i1"
+        android:layout_below="@id/i1"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="skippage"
+        android:scaleType="fitXY"
+        android:src="@drawable/w2" />
+
+    <ImageView
+        android:id="@+id/i3"
+        android:layout_width="175dp"
+        android:layout_height="95dp"
+        android:layout_alignRight="@id/i1"
+        android:layout_below="@id/i1"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/i2"
+        android:onClick="skippage"
+        android:scaleType="fitXY"
+        android:src="@drawable/w3" />
+
+
+    <ImageView
+        android:id="@+id/i4"
+        android:layout_width="180dp"
+        android:layout_height="95dp"
+        android:layout_alignLeft="@id/i1"
+        android:layout_below="@id/i3"
+        android:layout_marginTop="10dp"
+        android:onClick="skippage"
+        android:scaleType="fitXY"
+        android:src="@drawable/w4" />
+
+    <ImageView
+        android:id="@+id/i5"
+        android:layout_width="90dp"
+        android:layout_height="95dp"
+        android:layout_alignRight="@id/i3"
+        android:layout_below="@id/i3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/i4"
+        android:onClick="skippage"
+        android:scaleType="fitXY"
+        android:src="@drawable/w5" />
+
+
+    <ImageView
+        android:id="@+id/i6"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_alignRight="@id/i4"
+        android:layout_below="@id/i4"
+        android:layout_marginTop="10dp"
+        android:onClick="skippage"
+        android:scaleType="fitXY"
+        android:src="@drawable/w6" />
+
+    <ImageView
+        android:id="@+id/i7"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_alignLeft="@id/i5"
+        android:layout_below="@id/i5"
+        android:layout_marginTop="10dp"
+        android:onClick="skippage"
+        android:scaleType="fitXY"
+        android:src="@drawable/w7" />
+
+    <ImageView
+        android:id="@+id/i8"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_alignLeft="@id/i4"
+        android:layout_below="@id/i6"
+        android:layout_marginTop="10dp"
+        android:onClick="skippage"
+        android:scaleType="fitXY"
+        android:src="@drawable/w8" />
+
+    <ImageView
+        android:id="@+id/i9"
+        android:layout_width="175dp"
+        android:layout_height="95dp"
+        android:layout_alignRight="@id/i7"
+        android:layout_below="@id/i7"
+        android:layout_marginTop="10dp"
+        android:onClick="skippage"
+        android:scaleType="fitXY"
+        android:src="@drawable/w9" />
+
+</RelativeLayout>

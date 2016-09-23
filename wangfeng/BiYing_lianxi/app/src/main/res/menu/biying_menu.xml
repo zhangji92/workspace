@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/biy1"
+        android:icon="@drawable/dao2"
+        android:title="生词本"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/biy2"
+        android:icon="@drawable/xidapuben"
+        android:title="背单词"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/biy3"
+        android:icon="@drawable/xidapuben"
+        android:title="长句翻译"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/biy4"
+        android:icon="@drawable/xidapuben"
+        android:title="单词挑战"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/biy5"
+        android:icon="@drawable/xidapuben"
+        android:title="我爱说英语"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/biy6"
+        android:icon="@drawable/xidapuben"
+        android:title="必应电台"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/biy7"
+        android:icon="@drawable/xidapuben"
+        android:title="设置"
+        app:showAsAction="never"></item>
+</menu>

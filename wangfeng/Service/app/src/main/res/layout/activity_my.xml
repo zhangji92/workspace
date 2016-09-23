@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context="com.gaoshen.wangfeng.service.myActivity">
+
+ <Button
+     android:id="@+id/but1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="启动service"
+     android:onClick="dj"
+     />
+
+ <Button
+     android:id="@+id/but2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="停止service"
+     android:onClick="dj"
+     />
+
+ <Button
+     android:id="@+id/but3"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Bind 启动Service"
+     android:onClick="dj"
+     />
+ <Button
+     android:id="@+id/but_xia"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="点击下载"
+     android:onClick="dj"
+     />
+ <Button
+     android:id="@+id/but4"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Bind 停止Service"
+     android:onClick="dj"
+     />
+
+ <Button
+     android:id="@+id/but5"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="启动IntentService"
+     android:onClick="dj"
+     />
+
+ <Button
+     android:id="@+id/but6"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="停止IntentService"
+     android:onClick="dj"
+     />
+
+
+
+
+ </LinearLayout>

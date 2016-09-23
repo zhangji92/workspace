@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="back">#EFEFEF</color>
+    <color name="Tback">#05c0AB</color>
+    <color name="bai">#feffff</color>
+    <color name="oo">#fc8404</color>
+    <color name="ff">#fa0969</color>
+    <color name="hei">#0a0a0a</color>
+    <color name="dd">#ee5252</color>
+</resources>

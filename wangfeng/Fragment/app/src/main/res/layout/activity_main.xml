@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gaoshen.wangfeng.fragment.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relat"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动态添加"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tex"
+            android:onClick="setOnclick"
+            android:text="add" />
+
+        <Button
+            android:id="@+id/insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add"
+            android:onClick="setOnclick"
+            android:text="查看" />
+
+        <Button
+            android:id="@+id/rep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/insert"
+            android:onClick="setOnclick"
+            android:text="替换" />
+
+        <Button
+            android:id="@+id/remo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rep"
+            android:onClick="setOnclick"
+            android:text="删除" />
+
+        <Button
+            android:id="@+id/intent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/remo"
+            android:onClick="setOnclick"
+            android:text="跳转页面" />
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/relat">
+
+    </FrameLayout>
+
+</RelativeLayout>

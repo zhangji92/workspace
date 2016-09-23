@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/yhImg"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <TextView
+            android:id="@+id/three_list_tit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="博帝欧酒吧"
+            android:layout_toRightOf="@id/yhImg"
+            android:layout_alignTop="@id/yhImg"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/ze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/zk"
+            android:layout_below="@id/three_list_tit"
+            android:layout_toRightOf="@id/yhImg"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:id="@+id/zhezi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.9折"
+            android:layout_below="@id/three_list_tit"
+           android:layout_toRightOf="@id/ze"
+            android:textSize="15dp"
+            android:layout_marginLeft="1dp"
+            />
+
+
+        <TextView
+            android:id="@+id/context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="context"
+            android:layout_below="@id/zhezi"
+            android:layout_toRightOf="@id/yhImg"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+
+            />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地址:"
+            android:layout_below="@id/context"
+            android:layout_toRightOf="@id/yhImg"
+            android:textSize="15dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="2dp"
+            />
+
+        <TextView
+            android:id="@+id/address_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hhh"
+            android:layout_below="@id/context"
+            android:layout_toRightOf="@id/address"
+            android:textSize="15dp"
+            android:layout_marginLeft="1dp"
+            android:maxWidth="40dp"
+            android:maxLength="1"
+            />
+
+        <TextView
+            android:id="@+id/km_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="km"
+            android:layout_below="@id/context"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="3dp"
+            />
+        <TextView
+            android:id="@+id/jul_km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="km"
+            android:layout_below="@id/context"
+           android:layout_toLeftOf="@id/km_text"
+            android:textSize="15dp"
+            android:layout_marginLeft="1dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/dw"
+            android:layout_toLeftOf="@id/jul_km"
+            android:layout_below="@id/context"
+           android:layout_alignBottom="@id/jul_km"
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

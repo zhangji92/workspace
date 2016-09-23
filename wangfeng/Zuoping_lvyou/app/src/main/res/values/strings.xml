@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">旅游</string>
+    <string name="san_zi1">自由行，北京出发(静享时光 -- 北京＆新疆吐鲁番往返直飞文艺范儿7日游),五星级酒店。</string>
+    <string name="san_zi2">￥3000.00</string>
+    <string name="san_zi3">定价:￥500.00</string>
+    <string name="san_zi">优惠</string>
+    <string name="san_zi4">非注册用户</string>
+    <string name="san_zi5">￥950.00</string>
+    <string name="san_zi6">普通注册用户</string>
+    <string name="san_zi7">￥800.00</string>
+    <string name="san_zi8">商 品 概 要</string>
+    <string name="san_zi9">参 考 行 程</string>
+    <string name="but_zi1">游览天数:</string>
+    <string name="but_zi2">7天</string>
+    <string name="but_zi3">服务标准:</string>
+    <string name="but_zi4">免费接机、免费巴士(限区域)</string>
+    <string name="but_zi5">费用说明:</string>
+    <string name="but_zi6">包含酒店费用、往返机票</string>
+    <string name="but_zi7">友情提示:</string>
+    <string name="but_zi8">本产品不支持退款</string>
+    <string name="xia">立 即 预 定</string>
+
+    <string name="title">北京 - 新疆吐鲁番往返直飞文艺范儿7日游</string>
+
+    <string name="My_04_zi1">北京 - 吐鲁番</string>
+    <string name="My_04_zi2">北京站或北京南站乘火车卧铺前往吐鲁番，去程暂按T109次(19:33-09:55)硬卧中铺核算(315.5/元人中铺)
+    ，或其他同等车次火车卧铺，车次不限，更改车次请补齐火车票差价</string>
+    <string name="My_04_zi3">接团，入住酒店</string>
+    <string name="My_04_zi4">吐鲁番接团，入住酒店休息</string>
+    <string name="My_04_zi5">火州吐鲁番</string>
+    <string name="My_04_zi6">早乘车赴火州吐鲁番，吐鲁番市位于天山东部博格达山南麓，吐鲁番地中心。沿途gauntlet亚洲最大的风力
+        发电站，中国死海--盐湖。来到有中国露天博物馆之称的火州吐鲁番</string>
+    <string name="My_04_zi7">火州吐鲁番</string>
+    <string name="My_04_zi8">早餐后乘车赴亚欧大陆腹地干旱区自然景观的代表景区，国家5A级景区天山天池，天池是一座第四季达冰川
+        活动中形成的高山冰渍湖。天山天池浓缩了自然与人文之美，令无数游人心驰神往</string>
+
+    <string name="wo_1">乌鲁木齐五日游</string>
+    <string name="wo_2">自由行</string>
+    <string name="wo_3">￥3000.00起</string>
+    <string name="wo_4">2015-04-26出发</string>
+    <string name="wo_5">怪石域七日游</string>
+    <string name="wo_6">拼团游</string>
+    <string name="wo_7">￥2999.00起</string>
+    <string name="wo_8">交河古城三日游</string>
+    <string name="wo_9">参团游</string>
+    <string name="wo_10">￥2500.00起</string>
+
+
+    <string name="myCollect">我的收藏</string>
+    <string name="tit1">乌鲁木齐5日游</string>
+    <string name="tit2">自由行</string>
+    <string name="tit3">￥3000.00起</string>
+    <string name="tit4">2015-4-26出发</string>
+
+    <string name="head1">下拉可以刷新</string>
+    <string name="head2">2015-4-26出发</string>
+</resources>

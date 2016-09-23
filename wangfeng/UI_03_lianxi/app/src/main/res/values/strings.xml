@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">UI_03_lianxi</string>
+
+    <string-array name="arr_name">
+
+        <item>天津狗不理，又贵又难吃</item>
+        <item>天津之眼</item>
+        <item>傻吧你x</item>
+        <item>傻吧你x</item>
+        <item>傻蛋</item>
+        <item>傻强来杯咖啡</item>
+        <item>shaw</item>
+        <item>爱是你我</item>
+
+    </string-array>
+
+
+    <string-array name="arr_spinner">
+
+        <item>天津狗不理，又贵又难吃</item>
+        <item>天津之眼</item>
+        <item>傻吧你x</item>
+        <item>傻吧你x</item>
+        <item>傻蛋</item>
+        <item>傻强来杯咖啡</item>
+        <item>shaw</item>
+        <item>爱是你我</item>
+
+    </string-array>
+
+
+</resources>

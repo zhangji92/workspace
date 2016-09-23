@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gaoshen.wangfeng.launchmode.MainActivity">
+
+
+    <Button
+        android:id="@+id/standard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Standard默认启动模式"
+        />
+    <Button
+    android:id="@+id/singleTop__1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SingleTop启动模式--1（栈顶单例模式）"
+    />
+
+    <Button
+        android:id="@+id/singleTop__2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SingleTop启动模式--2（栈顶单例模式）"
+        />
+    <Button
+        android:id="@+id/SingleTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SingleTask启动模式（栈内单例模式）"
+        />
+
+    <Button
+        android:id="@+id/but5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SingleIestance启动模式(全局单例模式)"
+        />
+</LinearLayout>

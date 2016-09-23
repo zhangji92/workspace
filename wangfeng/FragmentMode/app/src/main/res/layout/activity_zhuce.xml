@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment_4.Zhuce">
+
+    <include android:id="@+id/zuc"
+        layout="@layout/toolbar_layout"
+        >
+    </include>
+
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/hui"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+       android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:background="@color/bai"
+        android:paddingTop="20dp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/shouji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/zhdl"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="请输入您的手机号"
+                android:textColorHighlight="@color/hui"
+
+                />
+
+            <Button
+                android:id="@+id/yanzhenma"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="获取验证码"
+                android:background="@color/hong"
+                android:textSize="15sp"
+                android:textColor="@color/bai"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                />
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/yanzm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/zhdl"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="请输入验证码"
+            android:textColorHighlight="@color/hui"
+
+            />
+
+        <EditText
+            android:id="@+id/zmm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/mima"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="请输入密码"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/hui"
+        android:paddingTop="20dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我已阅读并同意"
+                android:layout_marginLeft="10dp"
+                android:checked="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户协议"
+                android:textColor="@color/colorPrimary"
+                android:layout_toRightOf="@id/checkbox"
+                android:layout_alignBottom="@id/checkbox"
+
+                />
+
+            <TextView
+                android:id="@+id/lkdl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已有账号？立即登录"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_alignBottom="@id/checkbox"
+
+                />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/ljzc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/hong"
+            android:text="立即注册"
+            android:textColor="@color/bai"
+            android:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

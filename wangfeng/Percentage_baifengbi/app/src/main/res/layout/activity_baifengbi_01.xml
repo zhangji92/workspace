@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<anndroid.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    tools:context="com.gaoshen.wangfeng.percentage_baifengbi.baifengbi_01">
+
+    <TextView
+        android:id="@+id/row_one_item_one"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:background="#7700ff00"
+        android:text="w:70%,h:20%"
+        android:gravity="center"
+        app:layout_heightPercent="20%"
+        app:layout_widthPercent="70%"/>
+
+    <TextView
+        android:id="@+id/row_one_item_two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_toRightOf="@+id/row_one_item_one"
+        android:background="#396190"
+        android:text="w:30%,h:20%"
+        app:layout_heightPercent="20%"
+        android:gravity="center"
+        app:layout_widthPercent="30%"/>
+
+</anndroid.support.percent.PercentRelativeLayout>

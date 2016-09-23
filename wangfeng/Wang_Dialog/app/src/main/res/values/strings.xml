@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wang_Dialog</string>
+
+    <string-array name="arr">
+        <item> 游戏机</item>
+        <item> 战斗机</item>
+        <item> BOOS机</item>
+        <item> 公鸡</item>
+    </string-array>
+</resources>

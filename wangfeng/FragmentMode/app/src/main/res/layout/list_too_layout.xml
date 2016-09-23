@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/play_son_img"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="logo"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/play_son_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/play_son_img"
+            android:textColor="@color/hei"
+            android:textSize="15sp"
+            android:text="aaa"
+            />
+
+        <TextView
+            android:id="@+id/play_son_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/play_son_title"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/play_son_img"
+            android:text="接单数量:"
+            android:textColor="@color/hei"
+
+            />
+
+        <TextView
+            android:id="@+id/play_son_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/play_son_title"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/play_son_order"
+            android:textColor="@color/hei" />
+        <TextView
+            android:id="@+id/play_son_dan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/play_son_title"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/play_son_no"
+            android:text="单"
+            android:textColor="@color/hei" />
+
+
+
+
+        <TextView
+            android:id="@+id/play_son_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/play_son_no"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/play_son_img"
+            android:text="地址:" />
+        <TextView
+            android:id="@+id/play_son_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/play_son_no"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/play_son_address"
+            android:maxLines="1"
+            android:maxWidth="80dp"
+            android:text="bbb"
+            />
+
+        <TextView
+            android:id="@+id/km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/play_son_dan"
+            android:layout_marginTop="5dp"
+            android:text="km"
+            android:textColor="@color/hei"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="1dp"
+            />
+
+        <TextView
+            android:id="@+id/jl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/play_son_dan"
+            android:layout_marginTop="5dp"
+            android:text="xx"
+            android:textColor="@color/hei"
+            android:layout_toLeftOf="@id/km"
+            android:layout_marginRight="2dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/dw"
+            android:layout_below="@id/play_son_dan"
+            android:layout_toLeftOf="@id/jl"
+            android:layout_alignBottom="@id/jl"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            />
+
+
+        <TextView
+            android:id="@+id/play_son_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/play_son_add"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/play_son_img"
+            android:maxLines="1"
+            android:text="ddd"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

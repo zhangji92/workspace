@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gaoshen.wangfeng.androidtext.MainActivity">
+
+
+    <Button
+        android:id="@+id/provider_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加数据到TextChat中"
+        />
+    <Button
+        android:id="@+id/provider_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改TextChat中的数据"
+        />
+    <Button
+        android:id="@+id/provider_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除TextChat中的数据"
+        />
+    <Button
+        android:id="@+id/provider_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询TextChat中的数据"
+        />
+    <Button
+        android:id="@+id/provider_select_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询TextChat中一条的数据"
+        />
+
+</LinearLayout>

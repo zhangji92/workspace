@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gaoshen.wangfeng.my_application_guoyan.Kcxx">
+
+    <RelativeLayout
+        android:id="@+id/biaotou_K"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lang"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imgxxkc_K"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/wang1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgxxkc_K"
+            android:layout_marginTop="10dp"
+            android:gravity="center|bottom"
+            android:text="@string/zi2"
+            android:textColor="@color/bai"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/jian_K"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clickText_KC"
+            android:padding="10dp"
+            android:src="@drawable/jian" />
+
+        <ImageView
+            android:id="@+id/caidan_K"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:src="@drawable/caidan" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_marginTop="50dp"
+        android:id="@+id/list_kcxx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </ListView>
+
+</LinearLayout>

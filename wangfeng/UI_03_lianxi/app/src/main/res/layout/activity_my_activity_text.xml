@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/editView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionSend"
+
+        />
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="phone"-->
+        <!--android:inputType="phone"-->
+        <!--/>-->
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="number"-->
+        <!--android:inputType="number"-->
+        <!--/>-->
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="datetime"-->
+        <!--android:inputType="datetime"-->
+        <!--/>-->
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="textEmail"-->
+        <!--android:inputType="textEmailAddress"-->
+        <!--/>-->
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="textUri"-->
+        <!--android:inputType="textUri"-->
+        <!--/>-->
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint=" 大写每个新句子的第一个字母"-->
+        <!--android:inputType="textCapCharacters"-->
+        <!--/>-->
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint=" 大写每一个字"-->
+        <!--android:inputType="textCapWords"-->
+        <!--/>-->
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint=" 密码框"-->
+        <!--android:inputType="textPassword"-->
+        <!--/>-->
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint=" 收集邮寄地址，为每个字，并禁用文本建议"-->
+        <!--android:inputType="textPostalAddress|textCapWords|textNoSuggestions"-->
+        <!--/>-->
+
+
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="修改键盘上 发送按钮（actionGo)"-->
+        <!--android:imeOptions="flagNoEnterAction"-->
+        <!--/>-->
+</LinearLayout>

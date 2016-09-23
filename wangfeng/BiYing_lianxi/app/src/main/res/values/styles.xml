@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!--给子菜单设置字体颜色-->
+        <item name="android:textColorSecondary">@color/textcolor</item>
+    </style>
+
+    <!--子菜单 样式-->
+    <style name="biyingTheme" parent="ThemeOverlay.AppCompat.Light">
+        <!--<item name="android:background">@color/zibacolor</item>-->
+        <item name="android:textColor">@color/textcolor</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+</resources>

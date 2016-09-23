@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lianxi</string>
+    <string name="x1">篮球</string>
+    <string name="x2">足球</string>
+    <string name="x3">乒乓球</string>
+    <string name="x4">棒球</string>
+</resources>

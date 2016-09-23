@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">必应</string>
+    <string name="biying">必应词典</string>
+    <string name="danci">TODAY</string>
+    <string name="today">每日一次</string>
+    <string name="zi1">释义</string>
+    <string name="zi2">例句</string>
+    <string name="zi3">搭配</string>
+    <string name="ziw">waxberry - 王锋</string>
+    <string name="zi4">waxberry</string>
+    <string name="zi5">US:[fcgjkk]</string>
+    <string name="zi6">UK:[gmnnkk]</string>
+    <string name="zi7">同"snowberry";同"bayberry"</string>
+    <string name="zi8">英-英</string>
+    <string name="zi9">Same as snowberry</string>
+    <string name="zi10">Same as bayberry</string>
+    <string name="zi11">获取在线释义</string>
+    <string name="zi12">na.</string>
+
+
+</resources>

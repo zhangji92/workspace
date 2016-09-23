@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bacolor">#dfdede</color>
+    <color name="textcolor">#fefefe</color>
+    <color name="red">#fa0202</color>
+    <color name="butBa">#ff9900</color>
+    <color name="butTextColor">#96918a</color>
+    <color name="butColor">#1ddcf5</color>
+    <color name="header">#1da3fc</color>
+
+    <color name="myCollect">#fafafa</color>
+    <color name="tit2Background">#1ba9ba</color>
+    <color name="tit4Color">#ff9900</color>
+    <color name="tit3Color">#ff0000</color>
+    <color name="black">#000000</color>
+    <color name="toolbarBackground">#1da3fc</color>
+    <color name="background">#f5f5f5</color>
+    <color name="listbackground">#fafafa</color>
+</resources>

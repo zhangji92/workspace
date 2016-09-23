@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.gaoshen.wangfeng.wangfeng07070845.MyActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+
+        >
+
+       <LinearLayout
+           android:id="@+id/linear1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/edit_wf"
+           android:layout_marginRight="10dp"
+           android:paddingLeft="10dp"
+           android:paddingRight="10dp"
+           >
+
+           <ImageView
+               android:id="@+id/img_view"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="1dp"
+               android:scaleType="fitXY"
+               android:src="@drawable/sousuo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <EditText
+                android:id="@+id/edit_text"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/edit"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+
+                />
+
+        </LinearLayout>
+
+
+
+       </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+<RelativeLayout
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/toolb"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/te1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/te1"
+        android:textColor="@color/bai"
+        android:textSize="25dp"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/te2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/te2"
+        android:textColor="@color/bai"
+        android:textSize="25dp"
+        android:layout_toRightOf="@id/te1"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/te1"
+        android:textColor="@color/bai"
+        android:textSize="25dp"
+        android:layout_alignParentEnd="true"
+       android:layout_toRightOf="@id/te2"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        />
+
+</RelativeLayout>
+
+
+
+
+
+<ListView
+    android:id="@+id/listview_1"
+    android:layout_below="@id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</ListView>
+
+
+</RelativeLayout>

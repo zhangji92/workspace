@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        >
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/text1_shuaxin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/head1"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/text2_shijian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/linearLayout"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/xiashua"/>
+        <!--<ProgressBar-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/progressBar1" />-->
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar1"
+            android:layout_toLeftOf="@id/linearLayout"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

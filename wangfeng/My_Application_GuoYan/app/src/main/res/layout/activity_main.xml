@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gaoshen.wangfeng.my_application_guoyan.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/lang"
+        android:drawableTop="@drawable/wang1"
+        android:drawableBottom="@drawable/ziti2"
+        android:gravity="center|bottom"
+        android:paddingBottom="20dp"
+        android:paddingTop="15dp"
+        android:textColor="@color/bai"
+        android:textSize="28sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:paddingTop="20dp"
+        android:layout_weight="6"
+        android:background="@color/hui"
+        >
+
+       <TextView
+           android:id="@+id/text1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/zi1"
+           android:textSize="20sp"
+           android:textColor="@color/lang"
+           android:drawableLeft="@drawable/wang2"
+           android:layout_marginTop="10dp"
+           android:gravity="center_horizontal|center_vertical"
+           android:onClick="clickText1"
+
+           />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_below="@id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zi2"
+            android:textSize="20sp"
+            android:textColor="@color/lang"
+            android:drawableLeft="@drawable/wang3"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="clickText1"
+            />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_below="@id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zi3"
+            android:textSize="20sp"
+            android:textColor="@color/lang"
+            android:drawableLeft="@drawable/wang5"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="clickText1"
+            />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_below="@id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zi4"
+            android:textSize="20sp"
+            android:textColor="@color/lang"
+            android:drawableLeft="@drawable/wang4"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="clickText1"
+            />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_below="@id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zi5"
+            android:textSize="20sp"
+            android:textColor="@color/lang"
+            android:drawableLeft="@drawable/wang6"
+
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="clickText1"
+            />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_below="@id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zi6"
+            android:textSize="20sp"
+            android:textColor="@color/lang"
+            android:drawableLeft="@drawable/wang7"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="clickText1"
+            />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

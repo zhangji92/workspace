@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">王锋</string>
+    <string name="edit">请输入搜索内容</string>
+    <string name="te1">java</string>
+    <string name="te2">android</string>
+    <string name="te3">js</string>
+</resources>

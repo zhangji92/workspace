@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gaoshen.wangfeng.launchmode.Main4Activity">
+
+    <Button
+        android:id="@+id/m4_but1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SingleTack 启动模式1（该Activity 位于栈顶[自己跳自己]）"
+        />
+    <Button
+        android:id="@+id/m4_but2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SingleTack 启动模式1（该Activity 存在但不在栈顶）"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gaoshen.wangfeng.launchmode.Main2Activity">
+
+    <Button
+        android:id="@+id/m2_but1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SingleTop 启动模式1（该Activity 位于栈顶）"
+        />
+
+
+    <Button
+        android:id="@+id/m2_but2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SingleTop 启动模式2（该Activity 不位于栈顶）"
+        />
+
+
+
+
+
+</LinearLayout>

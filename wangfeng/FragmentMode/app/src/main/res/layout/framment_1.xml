@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/hong"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <include android:id="@+id/one_tool"
+                layout="@layout/toolbar_layout"
+
+                ></include>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/one_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/sousuo" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+    <com.gaoshen.wangfeng.fragmentmode.CustomList
+
+        android:id="@+id/listV_CustomList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.gaoshen.wangfeng.fragmentmode.CustomList>
+
+
+
+</LinearLayout>

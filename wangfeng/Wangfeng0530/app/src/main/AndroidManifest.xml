@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.wangfeng0530">
+
+    package="com.zizhu"
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/weixin"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Wang0531" />
+
+    </application>
+
+</manifest>

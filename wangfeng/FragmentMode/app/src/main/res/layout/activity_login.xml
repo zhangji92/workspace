@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment_4.Login">
+
+    <include
+        android:id="@+id/denglu"
+        layout="@layout/toolbar_layout"></include>
+
+    <LinearLayout
+        android:id="@+id/linea1"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linea2"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <EditText
+          android:id="@+id/zh"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@mipmap/zhdl"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:hint="  账号"
+          android:inputType="number"
+          android:textColorHighlight="@color/hui"
+
+          />
+
+        <EditText
+            android:id="@+id/mm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/mima"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="  密码"
+            android:inputType="numberPassword"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="记住账号"
+                android:layout_marginLeft="30dp"
+                android:checked="true"
+                />
+
+            <TextView
+                android:id="@+id/zhuce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="没有账号？立即注册"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/hong"
+            android:text="登录"
+            android:textColor="@color/bai"
+            android:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

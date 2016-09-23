@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">App01AndroidUI01</string>
+    <string name="txt_name">text text text</string>
+    <string name="txt_val">txt_vall</string>
+    <string name="btn_name">btn_name</string>
+</resources>

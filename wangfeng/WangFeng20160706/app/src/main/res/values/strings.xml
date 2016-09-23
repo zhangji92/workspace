@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">王锋</string>
+    <string name="tooltext">天津</string>
+    <string name="edittext">输入商家，分类或商圈</string>
+    <string name="it1">菜单</string>
+    <string name="it2">闹铃</string>
+
+    <string name="r1">美食</string>
+    <string name="r2">电影</string>
+    <string name="r3">酒店</string>
+    <string name="r4">休闲娱乐</string>
+    <string name="r5">外卖</string>
+    <string name="r6">自助餐</string>
+    <string name="r7">KTV</string>
+    <string name="r8">火车票/机票</string>
+    <string name="r9">周边</string>
+    <string name="r10">丽人</string>
+
+
+    <string name="rel1_1">菇凉宇火锅</string>
+    <string name="rel1_2">￥110</string>
+    <string name="rel1_3">天天特价</string>
+    <string name="rel1_4">低价抢美食</string>
+    <string name="rel1_5">超值工作餐</string>
+    <string name="rel1_6">吃点好的再奋斗</string>
+
+
+    <string name="dao_1">吃喝玩乐1元享</string>
+    <string name="dao_2">新用户特权</string>
+
+    <string name="dao_3">30元吃冷饮</string>
+    <string name="dao_4">7月甜品季</string>
+    <string name="dao_5">新用户专享</string>
+    <string name="dao_6">最高立减25元</string>
+
+
+    <string name="xia1">首页</string>
+    <string name="xia2">商家</string>
+    <string name="xia3">我的</string>
+    <string name="xia4">更多</string>
+</resources>

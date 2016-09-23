@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="daocolor">#0072c5</color>
+    <color name="textcolor">#fefefe</color>
+    <color name="zibacolor">#413f3f</color>
+    <color name="fayincolor">#b5b2b2</color>
+    <color name="bordercolor">#e0e0e0</color>
+    <color name="backgcolor">#f0f0f0</color>
+    <color name="zuozi">#2ccdf5</color>
+
+</resources>

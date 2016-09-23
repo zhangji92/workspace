@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/daocolor"
+        android:titleTextColor="@color/textcolor"
+        app:popupTheme="@style/AppTheme"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ziw"
+            android:textSize="25dp"
+            android:textColor="@color/textcolor"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/tex1"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbary"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/zi1"
+        android:textSize="21sp" />
+
+    <View
+        android:id="@+id/vie1"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignLeft="@id/tex1"
+        android:layout_alignRight="@id/tex1"
+        android:layout_below="@id/tex1"
+        android:background="@color/daocolor"></View>
+
+    <TextView
+        android:id="@+id/tex2"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbary"
+        android:layout_toRightOf="@id/tex1"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/zi2"
+        android:textColor="@color/zibacolor"
+        android:textSize="21sp" />
+
+    <View
+        android:id="@+id/vie2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@id/tex2"
+        android:layout_alignRight="@id/tex2"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/tex2"
+        android:background="@color/zuozi"></View>
+
+    <TextView
+        android:id="@+id/tex3"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbary"
+        android:layout_toRightOf="@id/tex2"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/zi3"
+        android:textSize="21sp" />
+
+    <View
+        android:id="@+id/vie3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@id/tex3"
+        android:layout_alignRight="@id/tex3"
+        android:layout_below="@id/tex3"
+        android:layout_marginTop="2dp"
+        android:background="@color/zuozi"></View>
+
+
+    <TextView
+        android:id="@+id/tex4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vie1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/zibacolor"
+
+        android:text="@string/zi4"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/zitu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tex4"
+        android:layout_below="@id/vie1"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/tex4"
+        android:src="@drawable/wang5" />
+
+    <TextView
+        android:id="@+id/tex5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tex4"
+        android:layout_below="@id/tex4"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/zi5"
+        android:textSize="21sp" />
+
+    <ImageView
+        android:id="@+id/zitu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tex5"
+        android:layout_below="@id/vie1"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/tex5"
+        android:src="@drawable/wang6" />
+
+
+    <TextView
+        android:id="@+id/tex6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tex4"
+        android:layout_below="@id/tex5"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/zi6"
+        android:textSize="21sp" />
+
+    <ImageView
+        android:id="@+id/zitu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tex6"
+        android:layout_below="@id/vie1"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/tex5"
+        android:src="@drawable/wang6" />
+
+    <TextView
+        android:id="@+id/na1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tex4"
+        android:layout_below="@id/tex6"
+        android:layout_marginTop="20dp"
+        android:background="@color/fayincolor"
+        android:padding="5dp"
+        android:text="@string/zi12"
+        android:textColor="@color/textcolor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tex7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/na1"
+        android:layout_below="@id/tex6"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/na1"
+        android:padding="5dp"
+        android:text="@string/zi7"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tex8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/na1"
+        android:layout_below="@id/na1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/zibacolor"
+        android:text="@string/zi8"
+        android:textSize="23sp" />
+
+    <View
+        android:id="@+id/cxian"
+        android:layout_width="335dp"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@id/na1"
+        android:layout_below="@id/tex8"
+        android:layout_marginTop="7dp"
+        android:background="@color/fayincolor"
+
+        ></View>
+
+
+    <TextView
+        android:id="@+id/na2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tex4"
+        android:layout_below="@id/cxian"
+        android:layout_marginTop="15dp"
+        android:background="@color/fayincolor"
+        android:padding="5dp"
+        android:text="@string/zi12"
+        android:textColor="@color/textcolor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tex9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/na2"
+        android:layout_below="@id/tex6"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/na1"
+        android:padding="5dp"
+        android:text="@string/zi9"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tex10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tex9"
+        android:layout_below="@id/tex9"
+        android:layout_toRightOf="@id/na1"
+        android:padding="5dp"
+
+        android:text="@string/zi10"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/tex11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tex10"
+        android:layout_below="@id/tex10"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:text="@string/zi11"
+        android:textColor="@color/daocolor"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/xiaxian"
+        android:layout_width="335dp"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@id/tex11"
+        android:layout_alignRight="@id/tex11"
+        android:layout_below="@id/tex11"
+        android:background="@color/daocolor"></View>
+
+
+</RelativeLayout>

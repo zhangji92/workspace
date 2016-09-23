@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wangfeng0530</string>
+    <string name="button">Send</string>
+    <string name="hint">请输入内容</string>
+</resources>

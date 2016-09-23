@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">首页</string>
+    <string name="description">首页图片</string>
+    <string name="myCollect">我的收藏</string>
+    <string name="tit1">乌鲁木齐5日游</string>
+    <string name="tit2">自由行</string>
+    <string name="tit3">￥3000.00起</string>
+    <string name="tit4">2015-4-26出发</string>
+</resources>

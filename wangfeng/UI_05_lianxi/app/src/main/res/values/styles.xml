@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+               <!--给主菜单设置字体颜色-->
+        <item name="android:textColorPrimary">@color/back</item>
+        <!--给子菜单设置字体颜色-->
+        <item name="android:textColorSecondary">@color/back</item>
+
+
+    </style>
+
+    <!--设置子菜单的样式-->
+    <style name="MyTheme" parent="ThemeOverlay.AppCompat.Light">
+
+        <!--设置子菜单的背景颜色-->
+        <item name="android:background">@color/back</item>
+        <item name="android:textColor">@color/textC</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+</resources>

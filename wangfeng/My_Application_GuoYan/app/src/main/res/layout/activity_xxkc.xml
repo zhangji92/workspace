@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gaoshen.wangfeng.my_application_guoyan.Xxkc">
+
+    <RelativeLayout
+        android:id="@+id/biaotou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lang"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imgxxkc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/wang1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgxxkc"
+            android:layout_marginTop="10dp"
+            android:gravity="center|bottom"
+            android:text="@string/zi1"
+            android:textColor="@color/bai"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/jian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="returnQ"
+            android:padding="10dp"
+            android:src="@drawable/jian" />
+
+        <ImageView
+            android:id="@+id/caidan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/caidan" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/xingming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xm"
+                android:textColor="@color/lang"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/biankuan"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/xingbie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/xb"
+                android:textColor="@color/lang"
+                android:textSize="25sp"
+
+                />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radioB"
+                android:orientation="horizontal"
+
+                >
+
+                <RadioButton
+
+                    android:id="@+id/nan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:checked="true"
+                    android:text="@string/nan"
+                    android:textColor="@color/lang"
+                    android:textSize="23sp" />
+
+                <RadioButton
+                    android:id="@+id/nv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nv"
+                    android:textColor="@color/lang"
+                    android:textSize="23sp" />
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nl"
+                android:textColor="@color/lang"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/nianlin"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/biankuan"
+                android:inputType="number"
+                android:paddingLeft="5dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonTi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/dianji"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/button"
+            android:textColor="@color/bai"
+            android:textSize="25sp"
+           android:onClick=" noNull"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

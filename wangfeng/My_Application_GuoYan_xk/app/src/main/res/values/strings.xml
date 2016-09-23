@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">学生选课</string>
+    <!--首页-->
+    <string name="text"> 学生选课系统</string>
+    <string name="zi1"> 选修课程</string>
+    <string name="zi2"> 课程信息</string>
+    <string name="zi3"> 查询学生信息</string>
+    <string name="zi4"> 课程详细信息</string>
+    <string name="zi5"> 帮助</string>
+    <string name="zi6">退出系统</string>
+
+
+    <!--选修课程-->
+    <string name="xm">姓名 :</string>
+    <string name="xb">姓别 :</string>
+    <string name="nl">年龄 :</string>
+    <string name="nan">男</string>
+    <string name="nv">女</string>
+    <string name="button">提交信息</string>
+    <string name="xuanxiu">请选择你要选修的课程</string>
+    <string name="tianjia">添加成功</string>
+
+    <string name="chaxun">查询结果</string>
+
+    <string name="sfzh">身份证号 :</string>
+    <string name="tijiao">提 交</string>
+
+    <string name="bz">帮 助</string>
+
+    <string name="tc">是否退出系统？</string>
+    <string name="shi">是</string>
+    <string name="fou">否</string>
+    <string name="xs">学生信息</string>
+
+</resources>
